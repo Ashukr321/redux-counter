@@ -41,7 +41,7 @@ const Counter = () => {
           onClick={handleIncrement}
           ref={inc}
         >
-          increment
+          Increment
         </button>
         <button
           style={{ color: "#000" }}
@@ -49,7 +49,7 @@ const Counter = () => {
           onClick={handleDcrement}
           ref={dec}
         >
-          decrement
+          Decrement
         </button>
       </div>
         <button style={{color:"#000"}} onClick={navigationHandler} className="btn" ref={home}>Home page</button>
