@@ -52,7 +52,7 @@ const Counter = () => {
           decrement
         </button>
       </div>
-        <button style={{color:"#000"}} onClick={navigationHandler} className="btn" ref={home}>go to Home page</button>
+        <button style={{color:"#000"}} onClick={navigationHandler} className="btn" ref={home}>Home page</button>
     </div>
   );
 };
